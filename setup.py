@@ -19,6 +19,7 @@ setup(name='DMemu',
       packages=['DMemu'],
       package_data={'DMemu': ['input_data/*.pkl']},
       install_requires=['numpy', 'scipy', 'matplotlib', 'astropy',
-                        'scikit-learn', 'cython'],
+                        'scikit-learn', 'cython',
+                        'torch', 'torchvision', 'torchaudio'],
       zip_safe=False
       )

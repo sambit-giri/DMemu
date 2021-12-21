@@ -5,3 +5,7 @@ astropy
 scikit-learn
 cython
 pickle
+
+torch 
+torchvision 
+torchaudio

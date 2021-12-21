@@ -1,17 +1,15 @@
 '''
-Emulator is a Python package for constructing emulators.
+Emulators for fast modelling of power spectra in various dark matter scenarios.
 
 You can also get documentation for all routines directory from
 the interpreter using Python's built-in help() function.
 For example:
->>> import BCMemu
->>> help(BCMemu.use_emul)
+>>> import DMemu
+>>> help(DMemu.use_emul)
 '''
 
 import sys
-from .BaryonEffectsEmulator import *
-from . import kpls 
-import smt
+from .functions import *
 
 
 #Suppress warnings from zero-divisions and nans
