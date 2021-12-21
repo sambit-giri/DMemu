@@ -1,4 +1,4 @@
-# BCMemu
+# DMemu
 
 A python package for modelling power spectra for various dark matter scenarios.
 
